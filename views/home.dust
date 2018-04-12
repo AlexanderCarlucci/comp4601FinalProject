@@ -1,0 +1,9 @@
+<div>
+    <h1>Users</h1>
+    {#users}
+        <div>
+            <a href="/user/{id}">{displayName}</a>
+        </div>
+    {/users}
+</div>
+
