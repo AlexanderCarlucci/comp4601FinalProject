@@ -2,11 +2,14 @@
 const express = require('express');
 const setup = require('./lib/setup.js');
 const users = require('./lib/users.js');
+const cluster = require('./lib/kmeans.js');
 const dust = require('express-dustjs');
 const path = require('path');
 
+
 const app = express();
 setup.configureUsers();
+cluster.cluster();
 
 app.engine('dust', dust.engine({
   useHelpers: true
