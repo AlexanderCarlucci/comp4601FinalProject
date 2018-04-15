@@ -4,6 +4,7 @@ const setup = require('./lib/setup.js');
 const users = require('./lib/users.js');
 const cluster = require('./lib/kmeans.js');
 const dust = require('express-dustjs');
+const pagerank = require('pagerank-js');
 const path = require('path');
 
 
