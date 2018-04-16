@@ -24,5 +24,8 @@
         </div>
         <hr>
     {/posts}
+    <div>
+        <p>Friend Rank: {friendRank}</p>
+    </div>
 </div>
 
