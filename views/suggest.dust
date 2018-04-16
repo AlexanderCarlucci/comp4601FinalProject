@@ -1,0 +1,29 @@
+<div>
+    <p>Suggestion for User: <a href='/user/{thisid}'>{thisid}</a></p>
+    <p>We suggest you delete the following users</p>
+<div>
+{#friends}
+    {?sd}
+        <div>
+        <p>User: <a href='/user/{id}'>{id}</a></p>
+        <p>Reasons for suggesting this user:</p>
+        {^doTheyTalk}
+            <p>You talk to this friend significantly less often then other friends.</p>
+        {/doTheyTalk}
+        {^areTheyCluster}
+            <p>We have calculated that you are not within the same social circle as this user.</p>
+        {/areTheyCluster}
+        {^areYouTheirFriend}
+            <p>This user does not consider you a friend.</p>
+        {/areYouTheirFriend}
+        {^goodPercent}
+            <p>You like less than 10% of their posts.</p>
+        {/goodPercent}
+        {^goodFriendRank}
+            <p>This person has a below than average friend score.</p>
+        {/goodFriendRank}
+        </div>
+        <hr>
+    {/sd}
+{/friends}
+</div>
