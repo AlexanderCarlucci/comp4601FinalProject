@@ -11,16 +11,16 @@
             <p>You talk to this friend significantly less often then other friends.</p>
         {/doTheyTalk}
         {^areTheyCluster}
-            <p>We have calculated that you are not within the same social circle as this user.</p>
+            <p>We have calculated that you do not have the same interests as this user.</p>
         {/areTheyCluster}
         {^areYouTheirFriend}
             <p>This user does not consider you a friend.</p>
         {/areYouTheirFriend}
         {^goodPercent}
-            <p>You like less than 10% of their posts.</p>
+            <p>You interact with less than 10% of this users posts.</p>
         {/goodPercent}
         {^goodFriendRank}
-            <p>This person has a below than average friend score.</p>
+            <p>This person has a below average friend score.</p>
         {/goodFriendRank}
         </div>
         <hr>
