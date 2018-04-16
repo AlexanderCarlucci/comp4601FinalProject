@@ -23,7 +23,7 @@ You will know that the web service is running when the terminal spits out the me
  ``Web Service listening on port 3000!``
 
 ## Services
-The Following Services are available from the base path: localhost:3000
+The Following Services are available from the base path: ``localhost:3000``
 + ``/ ``: gives a list of all users in the network
 + ``/user/:id`` : gives a view of the users profile with a like to run suggest algorithm at the bottom.
 + ``/user/suggest/:id`` : runs the suggest algorithm on a specified user and list the recommended users to delete as well as the reasoning for the recommendation.
