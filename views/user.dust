@@ -25,7 +25,8 @@
         <hr>
     {/posts}
     <div>
-        <p>Friend Rank: {friendRank}</p>
+        <p>Friend Rank: {user.friendRank}</p>
+        <p><a href = '/user/suggest/{user.id}'>Suggest Deletions</a></p>
     </div>
 </div>
 
