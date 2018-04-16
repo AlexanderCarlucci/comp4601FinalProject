@@ -39,4 +39,4 @@ app.get("/user/:userid", users.getUser);
 
 
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'));
+app.listen(3000, () => console.log('Web Service listening on port 3000!'));
